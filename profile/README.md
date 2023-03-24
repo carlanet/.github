@@ -1,4 +1,4 @@
 CARLANeT
 
 
-![Alt text](../images/carlanet_structure.png)
+![Alt text](https://github.com/carlanet/.github/blob/main/images/carlanet_structure.png)
