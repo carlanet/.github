@@ -1,26 +1,18 @@
-CARLANeT
+# CARLANeT
 
+CARLANeT is a powerful open-source project that facilitates co-simulation between OMNeT++ and CARLA. It empowers developers to create realistic simulations of vehicular services by leveraging network communication. With CARLANeT, integrating OMNeT++ and CARLA becomes effortless, enabling comprehensive testing and analysis of various vehicular scenarios.
 
-![Alt text](https://github.com/carlanet/.github/blob/main/images/carlanet_structure.png)
+<p align="center">
+ <img src="https://github.com/carlanet/.github/blob/main/images/carlanet_structure.png" width="75%" width="75%" alt>
+</p>
 
+## Architecture
 
-## Citation
-If you use CARLANeT for your research, please consider citing the following paper:
+CARLANeT is composed of two different libraries that are essential for a fully working co-simulation between CARLA and OMNeT++:
 
-  - Author(s): Valerio Cislaghi, Christian Quadri, Vincenzo Mancuso, Marco Ajmone Marsan
-  - Title: "Simulation of Tele-Operated Driving over 5G Using CARLA and OMNeT++"
-  - Conference/Journal: IEEE Vehicular Networking Conference (VNC)
-  - Year: 2023
-  - BibTeX Citation:
-    ```
-    @inproceedings{10136340,
-      author={Cislaghi, Valerio and Quadri, Christian and Mancuso, Vincenzo and Marsan, Marco Ajmone},
-      booktitle={2023 IEEE Vehicular Networking Conference (VNC)}, 
-      title={Simulation of Tele-Operated Driving over 5G Using CARLA and OMNeT++}, 
-      year={2023},
-      volume={},
-      number={},
-      pages={81-88},
-      doi={10.1109/VNC57357.2023.10136340}
-    }
-    ```
+- [pyCARLANeT](https://github.com/carlanet/pycarlanet): This library needs to be included and adapted in the Python code that communicates with the CARLA simulator and simulates the physics world.
+
+- [CARLANeTpp](https://github.com/carlanet/carlanetpp): This library needs to be included and adapted in the OMNeT++ code that is used to define the communication network.
+
+Please see the respective repositories for more information on how to use them.
+
