@@ -1,6 +1,6 @@
 # CARLANeT
 
-CARLANeT is a powerful open-source project that facilitates co-simulation between OMNeT++ and CARLA. It empowers developers to create realistic simulations of vehicular services by leveraging network communication. With CARLANeT, integrating OMNeT++ and CARLA becomes effortless, enabling comprehensive testing and analysis of various vehicular scenarios.
+CARLANeT is a powerful open source project that allows co-simulation between OMNeT++ and CARLA. It allows developers to create realistic simulations of vehicular services by leveraging network communication. With CARLANeT, the integration of OMNeT++ and CARLA becomes simple, allowing for comprehensive testing and analysis of various vehicular scenarios.
 
 <p align="center">
  <img src="https://github.com/carlanet/.github/blob/main/images/carlanet_structure.png" width="75%" width="75%" alt>
